@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1400px;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 25px 0px !important;
+}
+.menu-nav{
+    text-decoration: none;
+    list-style: none;
+    color: #707070;
+    padding: 0 25px;
+}
+.c-menu .active{
+    color: black;
+}
+.c-menu a:hover {
+    color: black !important;
+}
+.d-flex{
+    width: 30%;
+
+}
+.d-flex a {
+    left: -35px;
+    top: 10px;
+    position: relative;
+    font-size: 17px;
+    color: #707070bf;
+}
+.d-flex input {
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 10px;
+}
+.form-control:focus {
+    background-color: #F8F8F8;
+    border-color: inherit;
+    box-shadow: none;
+}
+
+/* banner */
+.banner {
+    min-height: 700px;
+    background-color: #FEEAE9;
+    border-radius: 25px;
+    padding: 5%;
+    margin: 10px 0px;
+}
+.banner-text{
+    margin: auto 0;
+} 
+.banner-text p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    /* padding: 20%; */
+    margin: 20px 0px;
+    padding-right: 20%;
+}
+.banner-text h2 {
+    color: #FF589B;
+    margin: 25px 0px 15px 0px;
+}
+.banner-text a {
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #FF589B;
+    color: #fff;
+    border-radius: 6px;
+}
+.banner-text a:hover {
+    border: 1px solid #FF589B;
+    color: #FF589B;
+    background-color: #fff;
+}
+.carousel-indicators {
+    bottom: -50px;
+
+}
+.carousel-indicators [data-bs-target] {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 7px;
+}
+.carousel-indicators .active {
+
+    background-color: #FF589B;
+}
+
+/* categories */
+.categories{
+    margin: 50px 0px;
+}
+.categories h2{
+    margin-bottom: 40px;
+}
+.categories .row{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+}
+.categories .row div{
+    display: flex;
+}
+.categories .row h1{
+    color: #ffff;
+}
+.categories .row div:nth-child(1){
+    background-color: red;
+    border-radius: 15px;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255,156,53,1) 30%, rgba(255,208,25,1) 100%);
+}
+.categories .row div:nth-child(2){
+    background-color: red;
+    border-radius: 15px;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255,88,155,1) 30%, rgba(255,19,111,1) 100%);
+}
+.categories .row div:nth-child(3){
+    background-color: red;
+    border-radius: 15px;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(66,137,255,1) 30%, rgba(63,7,248,1) 100%);
+}
+.categories .row h1{
+    margin: auto 0;
+}
+
+/* shoes */
+
+.shoes{
+    margin-bottom: 50px;
+}
+.cap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cap a{
+    text-decoration: none;
+    color: #FFD019;
+
+}
+
+.card{
+    text-align: center;
+    padding-bottom: 40px;
+    border: 1px solid black;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card p{
+    padding: 0 10%;
+    font-size: 14px;
+    margin: 20px 0px 40px 0px;
+}
+.card h4{
+    margin-bottom: 20px;
+}
+.card:nth-child(2){
+    margin: 0px 30px !important;
+}
+.card a {
+    border: 1px solid transparent;
+    text-decoration: none;
+    padding: 12px 22px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 6px;
+    margin: 30px 0px;
+}
+.card a:hover {
+    border: 1px solid #000;
+    color: #000;
+    background-color: #fff;
+}
+i{
+    margin-left: 10px;
+}
+
+/* newsletter */
+.newsletter{
+    min-height: 350px;
+    background-color: #FEEAE9;
+    margin: 70px 0px;
+    text-align: center;
+    padding: 50px 0px;
+
+}
+.c-news{
+    margin: auto 0;
+}
+.newsletter .input-group{
+    width: 50%;
+    margin: 20px auto;
+    border: none;
+}
+.newsletter .input-group .form-control{
+    padding: 10px 10px;
+    border: none;
+}
+.newsletter .input-group .form-control:focus {
+    background-color: #F8F8F8;
+    border-color: inherit;
+    box-shadow: none;
+}
+.newsletter .input-group .input-group-text{
+    padding: 10px 10px;
+    border: none;
+    background-color: #FF589B;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.newsletter .input-group .input-group-text:hover{
+    color: #FF589B;
+    background-color: #fff;
+    border: 2px solid #FF589B;
+}

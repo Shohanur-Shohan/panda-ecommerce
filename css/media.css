@@ -1,0 +1,10 @@
+@media screen and (max-width: 320px) {
+    *{
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:321px), screen and (max-width:767px) {
+    
+}
